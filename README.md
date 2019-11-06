@@ -1,6 +1,6 @@
 # Udacity Devops Engineer Nanodegree - Project 2 (Udagram)
 
-This is an assignment for the Udacity Devops Engineer Nanodegree program.
+This is the project 2 of the Udacity Devops Engineer Nanodegree program.
 
 The task was to deploy a high availability static website. The website should be hosted on servers within
 private subnets. All trafic to the servers should be routed through NAT gateways located in public subnets.
