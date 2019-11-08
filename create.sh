@@ -1,6 +1,7 @@
+#aws --profile=uda cloudformation create-stack \
 aws cloudformation create-stack \
 --stack-name $1 \
 --template-body file://$2 \
 --parameters file://$3 \
---region=eu-west-1 \
+--region=eu-east-2 \
 --capabilities CAPABILITY_IAM

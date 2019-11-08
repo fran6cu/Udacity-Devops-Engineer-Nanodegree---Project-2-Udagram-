@@ -271,7 +271,7 @@ Resources:
           unzip -o udacity.zip
       ImageId: ami-06f2f779464715dc5
       IamInstanceProfile: 
-        Ref: RootInstanceProfile
+        Ref: ListS3BucketsInstanceProfile
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.medium
