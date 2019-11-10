@@ -269,7 +269,7 @@ Resources:
           cd /var/www/html
           aws s3 cp s3://udacity-demo-1/udacity.zip .
           unzip -o udacity.zip
-      ImageId: ami-06f2f779464715dc5
+      ImageId: ami-0d5d9d301c853a04a
       IamInstanceProfile: 
         Ref: ListS3BucketsInstanceProfile
       SecurityGroups:
